@@ -1,0 +1,63 @@
+.menu-up {
+    display: flex;
+    background: linear-gradient($menucolorbg1, $menucolorbg2);
+
+    &-preview {
+        margin: 42px 91px 30px 156px;
+
+        &-text {
+            margin: 0;
+            color: $menucolortext;
+            font-family: Rubik;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 21px;
+            text-align: left;
+
+        }
+    }
+
+    &-common {
+        display: flex;
+        margin: 0;
+        &-info{
+            color: #884900;
+            margin: 70px 25px 53px 0;
+            font-family: Rubik;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 21px;
+            text-align: left;
+        }
+        &-search {
+            display: flex;
+            height: 45px;
+            margin: 56px 0 43px 0;
+            border-radius: 26px;
+            background-color: #ffffff;
+            &-text {
+                padding-left: 21px;
+                border: none;
+                border-radius: 26px;
+            }
+
+            &-btn {
+                padding: 10px 16px 11px 0;
+                background: transparent;
+                border: none;
+            }
+            &-buttons{
+                display: flex;
+                height: 45px;
+                margin: 56px 0 43px 0px;
+                &-btn{
+                    margin-left: 24px;
+                    border-radius: 12px;
+                    background: transparent;
+                    background-color: #ffffff;
+                    border: none;
+                }
+            }
+        }
+    }
+}
