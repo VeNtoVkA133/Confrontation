@@ -55,4 +55,8 @@
   background: transparent;
   background-color: #ffffff;
   border: none;
+  position: relative;
+}
+.menu-up-common-search-buttons-btn-img {
+  position: absolute;
 }/*# sourceMappingURL=style.css.map */

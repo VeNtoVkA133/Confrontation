@@ -56,6 +56,10 @@
                     background: transparent;
                     background-color: #ffffff;
                     border: none;
+                    position: relative;
+                    &-img{
+                        position: absolute;
+                    }
                 }
             }
         }
