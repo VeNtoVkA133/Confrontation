@@ -1,5 +1,6 @@
 .menu-up {
   display: flex;
+  margin: 0;
   background: linear-gradient(#F2B236, #FF9C1A);
 }
 .menu-up-preview {
@@ -46,7 +47,6 @@
 }
 .menu-up-common-search-buttons {
   display: flex;
-  height: 45px;
   margin: 56px 0 43px 0px;
 }
 .menu-up-common-search-buttons-btn {
@@ -55,8 +55,14 @@
   background: transparent;
   background-color: #ffffff;
   border: none;
-  position: relative;
+  height: 45px;
+  width: 45px;
 }
-.menu-up-common-search-buttons-btn-img {
-  position: absolute;
+.menu-up-common-search-buttons-btn-img-cart {
+  padding-left: 2.5px;
+  padding-top: 4px;
+}
+.menu-up-common-search-buttons-btn-img-user {
+  padding-left: 1px;
+  padding-top: 3px;
 }/*# sourceMappingURL=style.css.map */

@@ -1,5 +1,7 @@
-.menu-up {
+.menu{
+    &-up {
     display: flex;
+    margin: 0;
     background: linear-gradient($menucolorbg1, $menucolorbg2);
 
     &-preview {
@@ -20,7 +22,8 @@
     &-common {
         display: flex;
         margin: 0;
-        &-info{
+
+        &-info {
             color: #884900;
             margin: 70px 25px 53px 0;
             font-family: Rubik;
@@ -29,12 +32,14 @@
             line-height: 21px;
             text-align: left;
         }
+
         &-search {
             display: flex;
             height: 45px;
             margin: 56px 0 43px 0;
             border-radius: 26px;
             background-color: #ffffff;
+
             &-text {
                 padding-left: 21px;
                 border: none;
@@ -46,19 +51,27 @@
                 background: transparent;
                 border: none;
             }
-            &-buttons{
+
+            &-buttons {
                 display: flex;
-                height: 45px;
                 margin: 56px 0 43px 0px;
-                &-btn{
+
+                &-btn {
                     margin-left: 24px;
                     border-radius: 12px;
                     background: transparent;
                     background-color: #ffffff;
                     border: none;
-                    position: relative;
-                    &-img{
-                        position: absolute;
+                    height: 45px;
+                    width: 45px;
+                    &-img-cart{
+                        padding-left: 2.5px;
+                        padding-top: 4px;
+                    }
+                    &-img-user{
+                        padding-left: 1px;
+                        padding-top: 3 px;
+                    }
                     }
                 }
             }
