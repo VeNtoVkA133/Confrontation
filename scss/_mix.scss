@@ -1,0 +1,61 @@
+/* mixin */
+/* example:
+@mixin font-lato-normal-size-line($size-format: 400, $fonts:14px, $linehe: 17px) {
+    font-family: lato;
+    font-weight: $size-format;
+    font-style: normal;
+    font-size: $fonts;
+    line-height: $linehe;
+}*/
+
+@mixin font1($algininfo: center) {
+    //styleName: 1;
+    font-family: rubik-medium;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 59px;
+    text-align: $algininfo;
+}
+
+@mixin font2($algininfo: center) {
+//styleName: 2;
+font-family: rubik-medium;
+font-size: 44px;
+font-weight: 500;
+line-height: 52px;
+    text-align: $algininfo;
+}
+
+@mixin font5($algininfo: none) {
+//styleName: 5;
+font-family: rubik-medium;
+font-size: 24px;
+font-weight: 500;
+line-height: 28px;
+    text-align: $algininfo;
+}
+
+@mixin font6($algininfo: none) {
+    //styleName: 6;
+    font-family: rubik-medium;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: $algininfo;
+}
+@mixin fonttxt($algininfo: none) {
+//styleName: Блочный текст;
+font-family: rubik-regular;
+font-size: 16px;
+font-weight: 400;
+line-height: 25px;
+text-align: $algininfo;
+}
+@mixin fontbtn($algininfo: none) {
+//styleName: кнопка;
+font-family: rubik-regular;
+font-size: 16px;
+font-weight: 500;
+line-height: 18px;
+text-align: $algininfo;
+}

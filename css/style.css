@@ -8,15 +8,26 @@
     font-style: normal;
 }*/
 @font-face {
-  font-family: rubik;
+  font-family: rubik-medium;
   src: url(../fonts/rubik-medium.ttf);
   font-weight: 500;
   font-style: normal;
 }
-* {
-  margin: 0;
+@font-face {
+  font-family: rubik-regular;
+  src: url(../fonts/rubik-regular.ttf);
+  font-weight: 500;
+  font-style: normal;
 }
-
+/* mixin */
+/* example:
+@mixin font-lato-normal-size-line($size-format: 400, $fonts:14px, $linehe: 17px) {
+    font-family: lato;
+    font-weight: $size-format;
+    font-style: normal;
+    font-size: $fonts;
+    line-height: $linehe;
+}*/
 .menu-up {
   display: flex;
   margin: 0;
@@ -28,7 +39,7 @@
 .menu-up-preview-text {
   margin: 0;
   color: #ffffff;
-  font-family: Rubik;
+  font-family: rubik-medium;
   font-size: 18px;
   font-weight: 500;
   line-height: 21px;
@@ -43,18 +54,18 @@
 }
 .menu-up-common-info-txt {
   color: #884900;
-  font-family: rubik;
+  font-family: rubik-medium;
   font-size: 18px;
   font-weight: 500;
   line-height: 21px;
   text-align: left;
 }
-.menu-up-common-perdone {
+.menu-up-common-persone {
   display: flex;
   position: absolute;
   right: 137px;
 }
-.menu-up-common-perdone-search {
+.menu-up-common-persone-search {
   display: flex;
   align-items: right;
   height: 45px;
@@ -63,21 +74,21 @@
   border-radius: 26px;
   background-color: #ffffff;
 }
-.menu-up-common-perdone-search-text {
+.menu-up-common-persone-search-text {
   padding-left: 21px;
   border: none;
   border-radius: 26px;
 }
-.menu-up-common-perdone-search-btn {
+.menu-up-common-persone-search-btn {
   padding: 10px 16px 11px 95px;
   background: transparent;
   border: none;
 }
-.menu-up-common-perdone-search-buttons {
+.menu-up-common-persone-search-buttons {
   display: flex;
   margin: 56px 0 43px 0px;
 }
-.menu-up-common-perdone-search-buttons-btn {
+.menu-up-common-persone-search-buttons-btn {
   margin-left: 24px;
   border-radius: 12px;
   background: transparent;
@@ -86,11 +97,101 @@
   height: 45px;
   width: 45px;
 }
-.menu-up-common-perdone-search-buttons-btn-img-cart {
+.menu-up-common-persone-search-buttons-btn-img-cart {
   padding-left: 2.5px;
   padding-top: 4px;
 }
-.menu-up-common-perdone-search-buttons-btn-img-user {
+.menu-up-common-persone-search-buttons-btn-img-user {
   padding-left: 1px;
   padding-top: 3 px;
+}
+
+.quest {
+  position: relative;
+  margin-left: 137px;
+  margin-right: 137px;
+}
+.quest-title {
+  font-family: rubik-medium;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+  text-align: left;
+  width: 697px;
+}
+.quest-card {
+  margin-top: 92px;
+  display: inline-flex;
+  width: 564px;
+}
+.quest-card-img {
+  padding-bottom: 36px;
+}
+.quest-card-txt {
+  float: right;
+  font-family: rubik-medium;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: none;
+  padding: 39px 0 45px 23px;
+}
+.quest-card:nth-child(3) {
+  float: right;
+}
+.quest-card:nth-child(5) {
+  float: right;
+}
+.quest-buttons-btn1 {
+  margin-top: 52px;
+  width: 306px;
+  padding: 18px 0;
+  font-family: rubik-regular;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: center;
+  border: 0;
+  border-radius: 14px;
+  color: #ffffff;
+  background-color: #db4e66;
+  position: absolute;
+  left: 0;
+  top: 597px;
+}
+.quest-btn2 {
+  margin-top: 69px;
+  width: 276px;
+  padding: 10px 0;
+  border: 1px;
+  border-radius: 64px;
+  position: absolute;
+  right: 61px;
+  top: 614px;
+}
+.quest-btn2-figure {
+  position: relative;
+  padding-left: 10px;
+}
+.quest-btn2-figure-img {
+  float: left;
+  padding: 16px 16px;
+  background-color: #90c1bf;
+  border-radius: 50%;
+}
+.quest-btn2-figure-txt {
+  width: 114px;
+  position: absolute;
+  left: 99px;
+  top: 21px;
+  font-family: rubik-regular;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: center;
+  color: #222528;
+}
+
+* {
+  margin: 0;
 }/*# sourceMappingURL=style.css.map */

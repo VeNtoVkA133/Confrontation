@@ -8,8 +8,14 @@
 }*/
 
 @font-face {
-    font-family: rubik;
+    font-family: rubik-medium;
     src: url(../fonts/rubik-medium.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: rubik-regular;
+    src: url(../fonts/rubik-regular.ttf);
     font-weight: 500;
     font-style: normal;
 }

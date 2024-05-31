@@ -1,4 +1,9 @@
 @import "./varibles";
 @import "_fonts.scss";
+@import "_mix.scss";
 @import "./menu";
+@import "_questblock.scss";
 
+*{
+    margin: 0;
+}

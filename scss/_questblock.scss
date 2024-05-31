@@ -1,0 +1,72 @@
+.quest{
+    position: relative;
+    margin-left: 137px;
+    margin-right: 137px;
+    &-title{
+        @include font2(left);
+        width: 697px;
+    }
+    &-card{
+        margin-top: 92px;
+        display: inline-flex;
+        width: 564px;
+        &-img{
+            padding-bottom: 36px;
+        }
+        &-txt{
+            float: right;
+            @include font5();
+            padding: 39px 0 45px 23px;
+        }
+        &:nth-child(3){
+            float: right;
+        }   
+        &:nth-child(5){
+            float: right;
+        }
+        //попробовать сделать position absolute на карточки и 3 с 4 картам задать float right
+    }
+    &-buttons{
+        &-btn1{
+            margin-top: 52px;
+            width: 306px;
+            padding: 18px 0;
+            @include fontbtn(center);
+            border: 0;
+            border-radius: 14px;
+            color: #ffffff;
+            background-color: #db4e66;
+            position: absolute;
+            left: 0;
+            top: 597px;
+        }
+    }
+    &-btn2{
+        margin-top: 69px;
+        width: 276px;
+        padding: 10px 0;
+        border: 1px;
+        border-radius: 64px;
+        position: absolute;
+        right: 61px;
+        top: 614px;
+        &-figure{
+            position: relative;
+            padding-left: 10px;
+            &-img{
+                float: left;
+                padding: 16px 16px;
+                background-color: #90c1bf;
+                border-radius: 50%;
+            }
+            &-txt{
+                width: 114px;
+                position: absolute;
+                left:99px;
+                top: 21px;
+                @include fontbtn(center);
+                color: #222528;
+            }
+        }
+    }
+}
